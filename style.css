@@ -4,12 +4,13 @@ body {
     position: relative;
 }
 
-.header{
+.header {
     color: white;
     position: absolute;
     top: 5px;
     padding-left: 10px;
 }
+
 #container {
     margin: auto;
     max-width: 1572px;
@@ -333,13 +334,14 @@ header nav ul li {
 }
 
 .scontainer31 h1 {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: -webkit-linear-gradient(#e22fb9, #e22fb9);
     -webkit-background-clip: text;
     font-weight: 300;
     -webkit-text-fill-color: transparent;
 }
-.container4{
+
+.container4 {
     max-width: 1700px;
     margin: auto;
     background-image: url("img15.jpg");
@@ -351,13 +353,14 @@ header nav ul li {
     align-items: center;
     text-align: center;
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.container4 h1{
+
+.container4 h1 {
     padding: 2em;
 }
 
-#container5{
+#container5 {
     margin: auto;
     max-width: 1700px;
     background-image: url("img14.jpg");
@@ -368,37 +371,44 @@ header nav ul li {
     display: flex;
     justify-content: space-around;
     text-align: center;
+
     @media (max-width:900px) {
         flex-direction: column;
     }
 
 }
-#container5 h1{
+
+#container5 h1 {
     margin: 0;
     padding: 3em;
     text-decoration: underline;
     text-decoration-color: brown;
+
     @media (max-width:900px) {
         padding: 1em;
     }
 }
-.container6 h1{
+
+.container6 h1 {
     margin: 0;
     padding: 1em;
     text-decoration: underline;
     text-decoration-color: brown;
 }
-#container5 p{
+
+#container5 p {
     margin: 0;
     padding: 3em;
     padding-top: 3.5em;
     font-size: x-large;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
     @media (max-width:900px) {
         padding: 1em;
     }
 }
-#container6{
+
+#container6 {
     background-image: url("im4.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -411,14 +421,17 @@ header nav ul li {
     align-items: center;
     justify-content: center;
 }
-.heading{
+
+.heading {
     text-decoration: underline;
     text-decoration-color: brown;
 }
-a{
-width: 90%;
+
+a {
+    width: 90%;
 }
-.pro1{
+
+.pro1 {
     width: 100%;
     background-image: url("img17.jpg");
     background-position: center;
@@ -428,26 +441,30 @@ width: 90%;
     cursor: pointer;
     display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     margin-bottom: 2em;
     border-radius: 2em;
     overflow: scroll;
     scrollbar-width: none;
     transition-duration: 0.4s;
+
     @media (max-width:950px) {
         flex-direction: column;
     }
 }
+
 .pro1:hover {
     transform: translateY(-5px);
 }
-.pro1 img{
+
+.pro1 img {
     width: 100px;
     height: 100px;
     flex-basis: 25%;
     padding: 2em 0;
 }
-.pro1 p{
+
+.pro1 p {
     align-items: center;
     text-align: center;
     font-size: xx-large;
@@ -455,36 +472,40 @@ width: 90%;
     color: rgb(243, 243, 245);
     margin: 1em;
 }
-#container7{
+
+#container7 {
     max-width: 1700px;
     display: flex;
     flex-direction: row;
     margin: auto;
     justify-content: space-around;
     align-items: center;
-    color: #ffffff;
     overflow: hidden;
+    color: #ffffff;
     background-image: url("img13.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+
     @media (max-width:950px) {
         flex-direction: column;
     }
-    
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25em;
     justify-content: center;
-    padding: 2em
-        @media (max-width:450px) {
-        width: 15em;
+    padding: 2em;
+
+    @media (max-width:450px) {
+        width: 20em;
     }
 }
+
 input[type="text"],
 input[type="email"],
 textarea {
@@ -496,6 +517,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
 }
+
 input[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -508,6 +530,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
 #container7 h1 {
     margin: 0;
     flex-basis: 25%;
@@ -515,7 +538,8 @@ input[type="submit"]:hover {
     text-decoration: underline;
     text-decoration-color: brown;
 }
-.e_mail{
+
+.e_mail {
     text-decoration: underline;
     color: rgb(36, 207, 153);
     cursor: pointer;
